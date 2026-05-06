@@ -66,7 +66,7 @@ export default function Home() {
             <Link href="https://x.com/Ton_C0in" target="_blank" className="text-tom-navy font-semibold text-base hover:text-tom-purple transition-colors">
               TWITTER
             </Link>
-            <Link href="https://t.me/Ton_C0in" target="_blank" className="text-tom-navy font-semibold text-base hover:text-tom-purple transition-colors">
+            <Link href="https://t.me/TalkingTonn" target="_blank" className="text-tom-navy font-semibold text-base hover:text-tom-purple transition-colors">
               TELEGRAM
             </Link>
           </nav>
@@ -135,7 +135,7 @@ export default function Home() {
               <span className="font-semibold italic">My Talking Ton</span> is an interactive virtual pet game that defined its genre by allowing players to adopt and nurture a baby kitten into a full-grown cat. The gameplay centers on building an emotional connection with{' '}
               <span className="font-semibold text-tom-purple">Talking Ton</span> through daily care, creative customization, and skill-based entertainment.
             </p>
-            <p>CA: EQAG1qloIO1V-oRfoL_YJruiYowDNtOL3mIaB9lGBZXH7lMZ </p>
+            <p>CA: SOON </p>
           </motion.div>
         </div>
       </section>

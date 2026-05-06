@@ -66,7 +66,7 @@ export default function Home() {
             <Link href="https://x.com/Ton_C0in" target="_blank" className="text-tom-navy font-semibold text-base hover:text-tom-purple transition-colors">
               TWITTER
             </Link>
-            <Link href="https://t.me/Ton_C0in" target="_blank" className="text-tom-navy font-semibold text-base hover:text-tom-purple transition-colors">
+            <Link href="https://t.me/talkingt0n" target="_blank" className="text-tom-navy font-semibold text-base hover:text-tom-purple transition-colors">
               TELEGRAM
             </Link>
           </nav>

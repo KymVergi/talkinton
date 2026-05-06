@@ -348,7 +348,7 @@ export default function Home() {
                 <p className="text-xs text-tom-pink font-semibold">& FRIENDS</p>
               </div>
             </div>
-            <p className="text-gray-400">© 2024 Talking Ton AI. All rights reserved.</p>
+            <p className="text-gray-400">© 2026 Talking Ton AI. All rights reserved.</p>
           </div>
         </div>
       </footer>

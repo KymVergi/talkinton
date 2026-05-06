@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Fredoka', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  
+  --color-purple: #9747FF;
+  --color-blue: #00C3FF;
+  --color-pink: #FF2D92;
+  --color-navy: #2B2842;
+  --color-light: #F5F5F7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-light);
+  color: var(--color-navy);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .gradient-purple {
+    background: linear-gradient(135deg, #9747FF 0%, #C147FF 100%);
+  }
+  
+  .gradient-blue {
+    background: linear-gradient(135deg, #00C3FF 0%, #00E5FF 100%);
+  }
+  
+  .gradient-pink {
+    background: linear-gradient(135deg, #FF2D92 0%, #FF5CAA 100%);
+  }
+  
+  .gradient-navy {
+    background: linear-gradient(135deg, #2B2842 0%, #3D3658 100%);
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s ease-in-out infinite;
+}
